@@ -93,6 +93,7 @@
     - 데이터 사이즈는 마스크 씌우지 않은 데이터셋과 비교해 train, valid, test 각각 한계 더 추가
         - fyi: 마스크를 씌우지 않은 데이터셋트를 전체 사용하는 것과 달리 마스크로 씌운 데이터셋트는 마스크로 씌우지 않은 데이터셋트와 반반으로 섞는다. 여기에 전체 데이터 갯수가 홀수이어서, 반반으로 섞은 데이터셋트는 반올림으로 인해 데이터셋트 하나 더 추가 됨.
 
+## 결과
 ### 1. 바나나킥 vs 포키 구별하기
   ![o2res train](https://github.com/user-attachments/assets/076400f4-9669-4f8c-9f90-c93f80419229)
   ![o2res fitGraph](https://github.com/user-attachments/assets/464742e3-b33e-46ca-ae20-659db74d085b)
